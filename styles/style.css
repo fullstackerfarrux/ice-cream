@@ -1,0 +1,418 @@
+:root {
+  --pink-color: #f2ceda;
+  --purple-color: #d64374;
+  --grey-color: #716162;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: var(--pink-color);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: #f1bacd;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.li1 {
+  color: var(--purple-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.headerli {
+  font-family: Roboto;
+  font-weight: 700;
+  color: var(--grey-color);
+  font-size: 14px;
+}
+
+.li1:hover {
+  transform: scale(1.1);
+}
+
+.headerli:hover {
+  transform: scale(1.1);
+}
+
+.header-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: var(--purple-color);
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-family: "Hind Madurai";
+  font-weight: 700;
+}
+
+.header-btn:hover {
+  transform: scale(1.1);
+}
+
+.portion1 h5 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.ice-cream {
+  color: var(--purple-color);
+}
+
+.portion1 h1 {
+  width: 665px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 60px;
+  margin-top: 5px;
+}
+
+.portion1 p {
+  width: 460px;
+  color: #6d6162;
+  margin-top: 20px;
+  font-family: Hind Madurai;
+}
+
+.portion1 a {
+  margin-top: 20px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+
+.position1 {
+  position: relative;
+  right: 100px;
+  z-index: 0;
+}
+
+.position2 {
+  position: absolute;
+  z-index: 2;
+  right: 150px;
+  top: 200px;
+}
+
+.cards {
+  margin: 50px auto;
+}
+
+.card1 {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.card1 img {
+  margin-top: 20px;
+}
+
+.card1 h3 {
+  margin: 10px 0;
+}
+
+.card1 p {
+  margin: 10px 0;
+  color: grey;
+}
+
+.page3 {
+  background-color: #f8edf0;
+}
+
+.page3 h2 {
+  width: 300px;
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.page3 p {
+  width: 450px;
+  font-family: Roboto;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.page4 h2 {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.farrux {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.our-li1 {
+  color: black;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.our-li {
+  color: gray;
+  font-size: 18px;
+  margin-left: 30px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.chiziq {
+  width: 100px;
+  height: 5px;
+  background-color: var(--purple-color);
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  border-radius: 5px;
+}
+
+.our-li:hover {
+  transform: scale(1.1);
+}
+
+.our-li1:hover {
+  transform: scale(1.1);
+}
+
+.page4sale {
+  display: flex;
+}
+
+.page4text {
+  margin-left: 50px;
+}
+
+.page4text .lefttext {
+  text-align: left;
+  font-family: Hind Madurai;
+  font-weight: 700;
+  font-size: 26px;
+  margin: 20px 0;
+}
+
+.page4text .lefttext1 {
+  margin: 30px 0;
+  word-spacing: 2px;
+  font-size: 17px;
+}
+
+.sale {
+  margin: 0 10px;
+  font-size: 26px;
+  color: black;
+}
+
+.sale1 {
+  color: #6d6162;
+  margin-top: 10px;
+}
+
+.page5text {
+  order: -1;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.page5text .righttext {
+  text-align: right;
+  margin: 20px 0;
+}
+
+.page5text .righttext1 {
+  text-align: right;
+  margin: 20px 0;
+}
+
+.page5text .righttext2 {
+  margin-left: 400px;
+}
+
+.page5sale {
+  display: flex;
+  justify-content: right;
+}
+
+.page6nik {
+  display: flex;
+  margin-top: 100px;
+}
+
+.rasmyoni {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.rasmyoni h3 {
+  font-size: 24px;
+  margin: 5px 0;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.rasmyoni p {
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.thanks {
+  width: 340px;
+  margin-top: 30px;
+}
+
+.rasmlar {
+  margin-top: 30px;
+}
+
+.girl {
+  width: 50px;
+  height: 50px;
+  border: 1px solid orangered;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.page7 {
+  margin: 60px auto;
+}
+
+.page8 {
+  height: 600px;
+  background-color: var(--pink-color);
+}
+
+.tell {
+  margin-top: 60px;
+}
+
+.page8-2 p {
+  width: 500px;
+}
+
+.select {
+  display: flex;
+  margin-top: 20px;
+}
+
+.selectrasm {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.select h5 {
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.form h2 {
+  font-size: 40px;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.number {
+  width: 300px;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid #ffa3a3;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.question {
+  width: 300px;
+  height: 70px;
+  margin-left: 40px;
+  background: #ffffff;
+  border: 1px solid #ffa3a3;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.submit {
+  display: flex;
+  margin: 0 auto;
+  width: 700px;
+  height: 70px;
+  margin: 30px auto;
+}
+.submittext {
+  width: 640px;
+  height: 70px;
+  margin-left: 30px;
+  background: #ffffff;
+  border: 1px solid #ffa3a3;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.send {
+  width: 200px;
+  height: 70px;
+  background-color: #d64374;
+  border: none;
+  color: white;
+}
